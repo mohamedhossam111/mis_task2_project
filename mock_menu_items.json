@@ -1,0 +1,458 @@
+[
+  {
+    "_id": "68549760de0c7675aceeb3e5",
+    "name": "Something Delight",
+    "category": "Drinks",
+    "price": 10.31,
+    "ingredients": [
+      "vinegar",
+      "sugar",
+      "pepper",
+      "chicken",
+      "salt"
+    ],
+    "isAvailable": true,
+    "createdAt": "2025-03-25T01:04:13",
+    "updatedAt": "2025-02-02T09:51:27"
+  },
+  {
+    "_id": "68549760364dc6fa27d0d18c",
+    "name": "Southern Combo",
+    "category": "Dessert",
+    "price": 32.33,
+    "ingredients": [
+      "olive oil",
+      "butter"
+    ],
+    "isAvailable": true,
+    "createdAt": "2025-04-03T15:24:14",
+    "updatedAt": "2025-04-10T00:10:25"
+  },
+  {
+    "_id": "685497609ded6adea52c0278",
+    "name": "Become Delight",
+    "category": "Drinks",
+    "price": 6.38,
+    "ingredients": [
+      "parsley",
+      "beef"
+    ],
+    "isAvailable": false,
+    "createdAt": "2025-05-02T01:56:08",
+    "updatedAt": "2025-02-16T21:40:11"
+  },
+  {
+    "_id": "685497607d680daa36cab6ee",
+    "name": "Good Combo",
+    "category": "Steak",
+    "price": 28.74,
+    "ingredients": [
+      "vinegar",
+      "salt",
+      "cream",
+      "tomato",
+      "mushrooms"
+    ],
+    "isAvailable": true,
+    "createdAt": "2025-05-27T12:05:06",
+    "updatedAt": "2025-04-18T01:13:04"
+  },
+  {
+    "_id": "68549760a628cdabbb87d5dc",
+    "name": "Today Special",
+    "category": "Steak",
+    "price": 23.73,
+    "ingredients": [
+      "tomato",
+      "cheese",
+      "garlic",
+      "chicken",
+      "cream",
+      "basil"
+    ],
+    "isAvailable": false,
+    "createdAt": "2025-01-14T17:41:01",
+    "updatedAt": "2025-04-04T23:08:01"
+  },
+  {
+    "_id": "68549760c3fa2bfc224ef035",
+    "name": "Person Platter",
+    "category": "Drinks",
+    "price": 17.79,
+    "ingredients": [
+      "basil",
+      "sugar",
+      "chicken",
+      "salt",
+      "tomato"
+    ],
+    "isAvailable": false,
+    "createdAt": "2025-06-16T12:42:47",
+    "updatedAt": "2025-01-31T16:01:46"
+  },
+  {
+    "_id": "685497604925eceb3787ffc1",
+    "name": "Deep Platter",
+    "category": "Drinks",
+    "price": 29.7,
+    "ingredients": [
+      "lettuce",
+      "olive oil",
+      "tomato",
+      "sugar"
+    ],
+    "isAvailable": true,
+    "createdAt": "2025-04-20T08:07:43",
+    "updatedAt": "2025-02-07T11:53:54"
+  },
+  {
+    "_id": "68549760df9b0c37846f88ee",
+    "name": "Final Combo",
+    "category": "Drinks",
+    "price": 27.04,
+    "ingredients": [
+      "vinegar",
+      "chicken"
+    ],
+    "isAvailable": false,
+    "createdAt": "2025-01-05T08:30:39",
+    "updatedAt": "2025-05-10T02:13:34"
+  },
+  {
+    "_id": "6854976057a343751646a495",
+    "name": "Space Bowl",
+    "category": "Salad",
+    "price": 31.02,
+    "ingredients": [
+      "cheese",
+      "basil",
+      "salt"
+    ],
+    "isAvailable": true,
+    "createdAt": "2025-01-22T02:38:46",
+    "updatedAt": "2025-06-15T06:54:38"
+  },
+  {
+    "_id": "68549760a75a0c494f6f4397",
+    "name": "Discussion Bowl",
+    "category": "Salad",
+    "price": 15.45,
+    "ingredients": [
+      "cream",
+      "parsley",
+      "olive oil",
+      "vinegar",
+      "onion",
+      "mushrooms"
+    ],
+    "isAvailable": true,
+    "createdAt": "2025-01-07T13:12:51",
+    "updatedAt": "2025-04-16T19:42:32"
+  },
+  {
+    "_id": "68549760413444578e032cf5",
+    "name": "Before Bowl",
+    "category": "Sides",
+    "price": 28.34,
+    "ingredients": [
+      "pepper",
+      "flour",
+      "chicken",
+      "salt",
+      "basil",
+      "cheese"
+    ],
+    "isAvailable": true,
+    "createdAt": "2025-01-04T10:09:04",
+    "updatedAt": "2025-02-17T12:48:53"
+  },
+  {
+    "_id": "68549760961cfb751a1004e2",
+    "name": "Election Combo",
+    "category": "Dessert",
+    "price": 41.6,
+    "ingredients": [
+      "cream",
+      "beef",
+      "mushrooms",
+      "salt",
+      "garlic"
+    ],
+    "isAvailable": true,
+    "createdAt": "2025-01-06T16:09:35",
+    "updatedAt": "2025-01-01T03:49:51"
+  },
+  {
+    "_id": "68549760189d866b7ddfa235",
+    "name": "Paper Platter",
+    "category": "Salad",
+    "price": 31.3,
+    "ingredients": [
+      "parsley",
+      "butter"
+    ],
+    "isAvailable": true,
+    "createdAt": "2025-04-12T21:04:09",
+    "updatedAt": "2025-03-10T10:09:00"
+  },
+  {
+    "_id": "685497600c879241b0bb0eba",
+    "name": "Keep Delight",
+    "category": "Steak",
+    "price": 44.06,
+    "ingredients": [
+      "beef",
+      "butter",
+      "salt",
+      "onion",
+      "chicken"
+    ],
+    "isAvailable": true,
+    "createdAt": "2025-01-02T22:23:08",
+    "updatedAt": "2025-03-25T12:10:41"
+  },
+  {
+    "_id": "6854976094db4a535959e65d",
+    "name": "Memory Delight",
+    "category": "Sides",
+    "price": 12.18,
+    "ingredients": [
+      "cheese",
+      "butter",
+      "garlic",
+      "salt",
+      "cream",
+      "parsley"
+    ],
+    "isAvailable": false,
+    "createdAt": "2025-01-17T23:49:10",
+    "updatedAt": "2025-02-24T21:06:23"
+  },
+  {
+    "_id": "6854976059f326dc6f6f6a11",
+    "name": "Already Delight",
+    "category": "Drinks",
+    "price": 22.4,
+    "ingredients": [
+      "pepper",
+      "butter",
+      "tomato",
+      "onion",
+      "cream"
+    ],
+    "isAvailable": true,
+    "createdAt": "2025-05-23T21:08:54",
+    "updatedAt": "2025-04-22T06:34:25"
+  },
+  {
+    "_id": "685497600d13bb4bcb0025f3",
+    "name": "Cultural Combo",
+    "category": "Steak",
+    "price": 15.14,
+    "ingredients": [
+      "onion",
+      "chicken",
+      "cheese",
+      "salt",
+      "cream"
+    ],
+    "isAvailable": false,
+    "createdAt": "2025-01-17T15:02:43",
+    "updatedAt": "2025-02-17T03:11:10"
+  },
+  {
+    "_id": "6854976076ebf2aa66a78ad7",
+    "name": "Week Platter",
+    "category": "Salad",
+    "price": 25.29,
+    "ingredients": [
+      "beef",
+      "sugar",
+      "mushrooms",
+      "vinegar",
+      "olive oil",
+      "pepper"
+    ],
+    "isAvailable": true,
+    "createdAt": "2025-02-05T12:23:36",
+    "updatedAt": "2025-01-01T08:01:29"
+  },
+  {
+    "_id": "68549760d401a52100ddb5d0",
+    "name": "Under Platter",
+    "category": "Sides",
+    "price": 44.4,
+    "ingredients": [
+      "lettuce",
+      "parsley",
+      "garlic",
+      "olive oil"
+    ],
+    "isAvailable": false,
+    "createdAt": "2025-04-28T05:10:01",
+    "updatedAt": "2025-06-04T02:54:10"
+  },
+  {
+    "_id": "68549760e5919a911537bf41",
+    "name": "Newspaper Combo",
+    "category": "Salad",
+    "price": 16.36,
+    "ingredients": [
+      "parsley",
+      "chicken"
+    ],
+    "isAvailable": true,
+    "createdAt": "2025-03-06T06:21:47",
+    "updatedAt": "2025-02-07T05:58:40"
+  },
+  {
+    "_id": "68549760934d7468c117b033",
+    "name": "Item Bowl",
+    "category": "Dessert",
+    "price": 12.72,
+    "ingredients": [
+      "basil",
+      "chicken",
+      "sugar",
+      "tomato",
+      "cheese",
+      "parsley"
+    ],
+    "isAvailable": true,
+    "createdAt": "2025-06-13T22:33:02",
+    "updatedAt": "2025-02-08T10:01:53"
+  },
+  {
+    "_id": "685497605315958f543f64ac",
+    "name": "Rest Combo",
+    "category": "Salad",
+    "price": 13.74,
+    "ingredients": [
+      "sugar",
+      "garlic"
+    ],
+    "isAvailable": false,
+    "createdAt": "2025-03-19T22:27:54",
+    "updatedAt": "2025-04-10T21:39:07"
+  },
+  {
+    "_id": "68549760a5094c3cdcd221bb",
+    "name": "Pretty Bowl",
+    "category": "Dessert",
+    "price": 45.49,
+    "ingredients": [
+      "cheese",
+      "pepper"
+    ],
+    "isAvailable": false,
+    "createdAt": "2025-06-14T13:59:14",
+    "updatedAt": "2025-06-10T10:21:44"
+  },
+  {
+    "_id": "6854976092242ab824cd69ee",
+    "name": "Land Bowl",
+    "category": "Sides",
+    "price": 20.26,
+    "ingredients": [
+      "butter",
+      "tomato",
+      "sugar"
+    ],
+    "isAvailable": false,
+    "createdAt": "2025-01-25T07:38:03",
+    "updatedAt": "2025-06-04T03:45:10"
+  },
+  {
+    "_id": "6854976044ef0363fddf3a34",
+    "name": "Clear Bowl",
+    "category": "Dessert",
+    "price": 39.56,
+    "ingredients": [
+      "salt",
+      "lettuce",
+      "chicken",
+      "vinegar",
+      "basil",
+      "flour"
+    ],
+    "isAvailable": true,
+    "createdAt": "2025-03-18T09:46:27",
+    "updatedAt": "2025-05-06T11:08:37"
+  },
+  {
+    "_id": "68549760205895db16f07823",
+    "name": "Teacher Platter",
+    "category": "Drinks",
+    "price": 39.16,
+    "ingredients": [
+      "basil",
+      "butter",
+      "cream",
+      "cheese",
+      "olive oil",
+      "chicken"
+    ],
+    "isAvailable": false,
+    "createdAt": "2025-03-13T11:41:50",
+    "updatedAt": "2025-06-15T21:39:20"
+  },
+  {
+    "_id": "68549760b80a7a6b1cf76955",
+    "name": "Evening Bowl",
+    "category": "Dessert",
+    "price": 11.09,
+    "ingredients": [
+      "tomato",
+      "mushrooms",
+      "chicken",
+      "pepper",
+      "vinegar",
+      "olive oil"
+    ],
+    "isAvailable": true,
+    "createdAt": "2025-04-27T08:28:21",
+    "updatedAt": "2025-03-24T19:01:47"
+  },
+  {
+    "_id": "68549760659bfbf90f81f6f2",
+    "name": "Food Special",
+    "category": "Steak",
+    "price": 32.68,
+    "ingredients": [
+      "lettuce",
+      "salt",
+      "parsley",
+      "onion",
+      "cheese"
+    ],
+    "isAvailable": false,
+    "createdAt": "2025-06-19T08:55:54",
+    "updatedAt": "2025-05-09T23:42:56"
+  },
+  {
+    "_id": "68549760766d67fc914f04ba",
+    "name": "Do Delight",
+    "category": "Dessert",
+    "price": 45.35,
+    "ingredients": [
+      "chicken",
+      "garlic"
+    ],
+    "isAvailable": true,
+    "createdAt": "2025-04-02T07:10:07",
+    "updatedAt": "2025-05-29T08:25:15"
+  },
+  {
+    "_id": "685497609d72e50b5f7ba3ca",
+    "name": "Pick Delight",
+    "category": "Steak",
+    "price": 23.61,
+    "ingredients": [
+      "pepper",
+      "salt"
+    ],
+    "isAvailable": false,
+    "createdAt": "2025-05-21T18:35:13",
+    "updatedAt": "2025-06-01T14:29:34"
+  }
+]

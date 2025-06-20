@@ -1,0 +1,26 @@
+<%- include ('layouts/header') %>
+<h1 class="table">Customers</h1>
+
+<table>
+  <thead>
+    <th>name</th>
+    <th>email</th>
+    <th>phone</th>
+    <th style="padding-right: 10px"># of orders</th>
+  </thead>
+
+  <tbody>
+    <% customers.forEach(customer => { %>
+      <tr>
+        <td><a href="/customer/<%= customer.id %>"><%= customer.name %></td>
+        <td><%= customer.email %></td>
+        <td><%= customer.phone %></td>
+        <td style="text-align: right; padding-right: 40px">
+          <%= customer.orderCount %>
+        </td>
+      </tr>
+    <% }) %>
+  </tbody>
+</table>
+
+<%- include ('layouts/footer') %>

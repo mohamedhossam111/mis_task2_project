@@ -1,0 +1,7 @@
+#!/bin/bash
+
+mongosh 'mongodb://localhost:27017/rbac_tutorial' --eval 'db.customers.deleteMany({})'
+mongosh 'mongodb://localhost:27017/rbac_tutorial' --eval 'db.menuitems.deleteMany({})'
+mongosh 'mongodb://localhost:27017/rbac_tutorial' --eval 'db.orders.deleteMany({})'
+mongosh 'mongodb://localhost:27017/rbac_tutorial' --eval 'db.suppliers.deleteMany({})'
+mongosh 'mongodb://localhost:27017/rbac_tutorial' --eval 'db.transactions.deleteMany({})'
