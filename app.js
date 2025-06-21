@@ -22,6 +22,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 const MongoStore = connectMongo(session);
+
 // Init Session
 app.use(
   session({
@@ -29,8 +30,7 @@ app.use(
     resave: false,
     saveUninitialized: false,
     cookie: {
-      // secure: true,
-      httpOnly: true,
+      httpOnly: true
     },
     store: new MongoStore({ mongooseConnection: mongoose.connection }),
   })
@@ -68,10 +68,10 @@ app.use(
   require('./routes/admin.route')
 );
 app.use(
-'/customer',
+  '/customer',
   ensureLoggedIn({ redirectTo: '/auth/login' }),
   ensureManager,
-  require('./routes/customer.route'),
+  require('./routes/customer.route')
 );
 
 // 404 Handler
@@ -86,22 +86,22 @@ app.use((error, req, res, next) => {
   res.render('error_40x', { error });
 });
 
-// Setting the PORT
-const PORT = process.env.PORT || 3000;
+// Set the PORT (Render uses process.env.PORT)
+const PORT = process.env.PORT || 10000;
 
-// Making a connection to MongoDB
+// Start server only after successful MongoDB connection
 mongoose
   .connect(process.env.MONGODB_URI, {
     dbName: process.env.DB_NAME,
     useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useCreateIndex: true,
-    useFindAndModify: false,
+    useUnifiedTopology: true
   })
   .then(async () => {
-    await importFn()
+    await importFn();
     console.log('💾 connected...');
-    // Listening for connections on the defined PORT
-    app.listen(PORT, () => console.log(`🚀 @ http://localhost:${PORT}`));
+    app.listen(PORT, '0.0.0.0', () => {
+      console.log(`🚀 Server running on http://localhost:${PORT}`);
+    });
   })
-  .catch((err) => console.log(err.message));
+  .catch((err) => console.log('❌ DB connection error:', err.message));
+
